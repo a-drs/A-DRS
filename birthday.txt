@@ -1,0 +1,35 @@
+import java.util.HashSet;
+import java.util.Random;
+
+
+public class birthday
+{
+        public static void main(String[] args)
+        {
+        	       
+        Random rand = new Random();
+		
+		HashSet<Integer> birthday = new HashSet<Integer>( );
+ 
+				int runs = 75;
+				int collideCount = 0;
+		
+		for(int j = 0; j < runs; j++) {
+			int chosen = Math.abs(rand.nextInt()) % 365 + 1;   
+			if( birthday.contains(chosen)) {
+				collideCount++;
+			}
+			birthday.add(chosen);
+		}
+		System.out.println(collideCount + " collisions over " + runs + " runs.");
+		
+			
+		for(int i = 0; i < 51; i++){
+			
+			float prob =(float)collideCount / 5000;
+			System.out.println(i + " people equals " + prob + " probability.");
+				
+		}
+}
+}
+
