@@ -13,7 +13,7 @@ performs this accordingy.
 The user is asked to enter complete path of initial directory or drive.
 
 Steps : 
-1)the folder L3_5_V2 is the eclipse project that can be imported into workspace
+1)the folder L3_5_V2 is the eclipse project that can be imported into workspace, run using drive.java
 2)l3_5_2_program contains the java code
 3)l3_5_2_output includes a sample output.
 
