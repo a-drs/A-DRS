@@ -1,3 +1,4 @@
+Steps
 1) Folder 'L3_1' is the java project which needs to be imported into the workspace. It contains the following java files: 
 >> date_tracker.java
 >> file_type.java
