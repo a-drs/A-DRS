@@ -27,7 +27,7 @@ various bar graphs and pie charts which further elaborate the summary obtained f
  that they can be run from the browser. The folder 'l3' which is uploaded with the solution needs to be stored in this
  directory 'www' by the user.
 
-7) The folder 'l3' conatins various files that are needed to run bootstrap and the pie charts along with php html pages
+7) The folder 'l3' conatins various files that are needed to run bootstrap and the high charts along with php html pages
  and the file 'output.txt'. The user is requested to type the following URL in his/her browser to begin the second part
  of the solution- "localhost/l3/output_summary.php". The page itself is self explanatory and provides links for various 
 graphical options. Multiple screen-shots have been uploaded allowing the user to better understand how to run the solution.
